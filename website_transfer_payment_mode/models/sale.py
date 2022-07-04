@@ -13,7 +13,7 @@ class SaleOrder(models.Model):
             transaction_ids = self.env['payment.transaction'].search([
                 ('sale_order_ids', 'in', self.id),
                 ('state', 'in', ['pending', 'authorized', 'done'])
-            ], order="date desc")
+            ], order="create_date desc")
             if transaction_ids and transaction_ids[0] and \
                transaction_ids[0].acquirer_id is not False and \
                transaction_ids[0].acquirer_id.sale_payment_mode_id:
