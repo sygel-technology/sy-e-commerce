@@ -10,5 +10,5 @@ class PaymentAcquirer(models.Model):
     sale_payment_mode_id = fields.Many2one(
         name="Sale Payment Mode",
         comodel_name="account.payment.mode",
-        domain=[("payment_type", "=", "inbound")]
+        domain=[("payment_type", "=", "inbound")],
     )
