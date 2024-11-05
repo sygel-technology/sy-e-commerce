@@ -17,7 +17,11 @@ Odoo E-Commerce server automation addons
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[website_transfer_payment_mode](website_transfer_payment_mode/) | 15.0.1.0.0 |  | Transfer payment mode from website to SO.
 
 [//]: # (end addons)
 
