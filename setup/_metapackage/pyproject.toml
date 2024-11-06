@@ -1,0 +1,11 @@
+[project]
+name = "odoo-addons-sygel-technology-sy-e-commerce"
+version = "15.0.20241106.0"
+dependencies = [
+    "odoo-addon-website_transfer_payment_mode>=15.0dev,<15.1dev",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 15.0",
+]
