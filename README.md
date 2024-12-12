@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[website_transfer_payment_mode](website_transfer_payment_mode/) | 15.0.1.0.0 |  | Transfer payment mode from website to SO.
+[website_transfer_payment_mode](website_transfer_payment_mode/) | 16.0.1.0.0 |  | Transfer payment mode from website to SO.
 
 [//]: # (end addons)
 
